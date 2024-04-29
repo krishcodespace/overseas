@@ -1372,12 +1372,13 @@ header a.logo img {
 
 .heading-area .title {
     font-size: 1.8rem;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 
 .heading-area .sub-title {
     margin-bottom: 15px;
     font-weight: 400;
+    font-size:2.5rem;
 }
 
 .about-list {
@@ -1490,6 +1491,15 @@ header a.logo img {
 
 .advertisement-sec .video-box img {
     width: 100%
+}
+
+.advertisement-sec .images-section{
+
+}
+
+.images-section .img-container{
+    /* width:80%; */
+    
 }
 
 /* ===================================
@@ -2488,8 +2498,11 @@ header a.logo img {
     /* .heading-area{
         margin-bottom: 3rem;
     } */
+    .heading-area .sub-title{
+        font-size:4rem;
+    }
     .heading-area .title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .services-skill {
         margin-bottom: 2rem;
@@ -2744,15 +2757,20 @@ section,
 } */
 
 .features .feature-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
     cursor: pointer;
     transition: .8s ease-in;
 }
 
 .features .feature-card span {
     color: #236e76;
-    font-size: 42px;
+    font-size: 2rem;
     display: inline-block;
     font-family: 'Oswald', sans-serif;
+    padding-top: 15px;
 }
 
 .features .feature-card .feature-heading {
