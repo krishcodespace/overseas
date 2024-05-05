@@ -277,10 +277,14 @@
     z-index: 0;
     width: 100%
 }
+.rev_slider_wrapper::-webkit-scrollbar{
+	display:"none";
+}
 
 .rev_slider {
     position: relative;
-    overflow: visible
+    overflow: visible;
+    height:100vh;
 }
 
 .entry-content .rev_slider a,

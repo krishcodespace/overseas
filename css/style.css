@@ -1314,7 +1314,8 @@ header a.logo img {
    ====================================== */
 
 .slider-section {
-    overflow-x: hidden;
+    overflow: hidden;
+    height:100vh;
 }
 
 .slider-section .slider-overlay {
