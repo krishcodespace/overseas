@@ -6804,7 +6804,6 @@ input[type=submit].btn-block {
 .btn-group,
 .btn-group-vertical {
     position: relative;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     vertical-align: middle
 }
@@ -6833,9 +6832,7 @@ input[type=submit].btn-block {
 .btn-toolbar {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-pack: start;
     justify-content: flex-start
 }
 
@@ -7478,7 +7475,6 @@ input[type=submit].btn-block {
     border: 0;
     border-radius: 1rem;
     transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    -moz-appearance: none;
     appearance: none
 }
 
@@ -7655,7 +7651,6 @@ input[type=submit].btn-block {
 }
 
 .nav-fill .nav-item {
-    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     text-align: center
 }
@@ -7678,26 +7673,18 @@ input[type=submit].btn-block {
 
 .navbar {
     position: relative;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: .5rem 1rem
 }
 
 .navbar>.container,
 .navbar>.container-fluid {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-pack: justify;
     justify-content: space-between
 }
 
@@ -7717,9 +7704,7 @@ input[type=submit].btn-block {
 }
 
 .navbar-nav {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
@@ -7743,11 +7728,8 @@ input[type=submit].btn-block {
 }
 
 .navbar-collapse {
-    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
-    -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex-align: center;
     align-items: center
 }
 
@@ -7785,13 +7767,10 @@ input[type=submit].btn-block {
 
 @media (min-width:576px) {
     .navbar-expand-sm {
-        -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
-        -ms-flex-pack: start;
         justify-content: flex-start
     }
     .navbar-expand-sm .navbar-nav {
-        -ms-flex-direction: row;
         flex-direction: row
     }
     .navbar-expand-sm .navbar-nav .dropdown-menu {
@@ -7803,13 +7782,11 @@ input[type=submit].btn-block {
     }
     .navbar-expand-sm>.container,
     .navbar-expand-sm>.container-fluid {
-        -ms-flex-wrap: nowrap;
         flex-wrap: nowrap
     }
     .navbar-expand-sm .navbar-collapse {
         display: -ms-flexbox !important;
         display: flex !important;
-        -ms-flex-preferred-size: auto;
         flex-basis: auto
     }
     .navbar-expand-sm .navbar-toggler {
@@ -7827,13 +7804,10 @@ input[type=submit].btn-block {
 
 @media (min-width:768px) {
     .navbar-expand-md {
-        -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
-        -ms-flex-pack: start;
         justify-content: flex-start
     }
     .navbar-expand-md .navbar-nav {
-        -ms-flex-direction: row;
         flex-direction: row
     }
     .navbar-expand-md .navbar-nav .dropdown-menu {
@@ -7845,13 +7819,10 @@ input[type=submit].btn-block {
     }
     .navbar-expand-md>.container,
     .navbar-expand-md>.container-fluid {
-        -ms-flex-wrap: nowrap;
         flex-wrap: nowrap
     }
     .navbar-expand-md .navbar-collapse {
-        display: -ms-flexbox !important;
         display: flex !important;
-        -ms-flex-preferred-size: auto;
         flex-basis: auto
     }
     .navbar-expand-md .navbar-toggler {
@@ -7869,13 +7840,10 @@ input[type=submit].btn-block {
 
 @media (min-width:992px) {
     .navbar-expand-lg {
-        -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
-        -ms-flex-pack: start;
         justify-content: flex-start
     }
     .navbar-expand-lg .navbar-nav {
-        -ms-flex-direction: row;
         flex-direction: row
     }
     .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -7887,13 +7855,10 @@ input[type=submit].btn-block {
     }
     .navbar-expand-lg>.container,
     .navbar-expand-lg>.container-fluid {
-        -ms-flex-wrap: nowrap;
         flex-wrap: nowrap
     }
     .navbar-expand-lg .navbar-collapse {
-        display: -ms-flexbox !important;
         display: flex !important;
-        -ms-flex-preferred-size: auto;
         flex-basis: auto
     }
     .navbar-expand-lg .navbar-toggler {
@@ -7911,13 +7876,10 @@ input[type=submit].btn-block {
 
 @media (min-width:1200px) {
     .navbar-expand-xl {
-        -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
-        -ms-flex-pack: start;
         justify-content: flex-start
     }
     .navbar-expand-xl .navbar-nav {
-        -ms-flex-direction: row;
         flex-direction: row
     }
     .navbar-expand-xl .navbar-nav .dropdown-menu {
@@ -7929,13 +7891,10 @@ input[type=submit].btn-block {
     }
     .navbar-expand-xl>.container,
     .navbar-expand-xl>.container-fluid {
-        -ms-flex-wrap: nowrap;
         flex-wrap: nowrap
     }
     .navbar-expand-xl .navbar-collapse {
-        display: -ms-flexbox !important;
         display: flex !important;
-        -ms-flex-preferred-size: auto;
         flex-basis: auto
     }
     .navbar-expand-xl .navbar-toggler {
@@ -7944,9 +7903,7 @@ input[type=submit].btn-block {
 }
 
 .navbar-expand {
-    -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
-    -ms-flex-pack: start;
     justify-content: flex-start
 }
 
@@ -7957,7 +7914,6 @@ input[type=submit].btn-block {
 }
 
 .navbar-expand .navbar-nav {
-    -ms-flex-direction: row;
     flex-direction: row
 }
 
@@ -7972,14 +7928,11 @@ input[type=submit].btn-block {
 
 .navbar-expand>.container,
 .navbar-expand>.container-fluid {
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap
 }
 
 .navbar-expand .navbar-collapse {
-    display: -ms-flexbox !important;
     display: flex !important;
-    -ms-flex-preferred-size: auto;
     flex-basis: auto
 }
 
@@ -8093,7 +8046,6 @@ input[type=submit].btn-block {
     position: relative;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
@@ -8211,7 +8163,6 @@ input[type=submit].btn-block {
 .card-deck {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
     flex-direction: column
 }
 
