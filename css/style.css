@@ -2381,7 +2381,7 @@ header a.logo img {
 @media (min-width: 576px) and (max-width: 768px) {
     /*STIKCY NAV BAR HEIGHT 90*/
     .header-appear .navbar-top-default {
-        height: 90px;
+        height: 100px;
     }
     /*ABOUT US SECTION*/
     .about-image {
@@ -2602,7 +2602,7 @@ header a.logo img {
 @media (min-width: 300px) and (max-width: 768px) {
     /*STIKCY NAV BAR HEIGHT 90*/
     .header-appear .navbar-top-default {
-        height: 90px;
+        height: 100px;
     }
     /*ABOUT US SECTION*/
     .about-image {
@@ -2738,7 +2738,6 @@ header a.logo img {
 
 .black-and-black-btn:hover {
     color: #ffffff !important;
-    ;
     background-color: #5bbdbb !important;
     border: 1px solid transparent;
 }
