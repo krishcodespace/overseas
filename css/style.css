@@ -1959,6 +1959,12 @@ header a.logo img {
     resize: none;
 }
 
+.error {
+    color: red;
+    font-size: 0.8rem;
+    display: "flex"!important;
+}
+
 .contact-form .form-group {
     margin-bottom: 1.5rem;
 }
